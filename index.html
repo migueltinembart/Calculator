@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <div class="content">
         <div class="calc">
             <div class="calc-display">
-                <div class="calc-display-upper"></div>
-                <div class="calc-display-main"></div>
+                <div id="display-First-Operand" class="calc-display-upper"></div>
+                <div id="display-main"class="calc-display-main">0</div>
             </div>
             <div class="calc-buttons">
                 <div class="calc-buttons-removers">
@@ -34,9 +35,9 @@
                     <button class="calc-buttons-functional" data-number>2</button>
                     <button class="calc-buttons-functional" data-number>3</button>
                     <button class="calc-buttons-functional" data-operator>x</button>
-                    <button class="calc-buttons-functional" data-evaluate>=</button>
+                    <button id="calc-buttons-eval" class="calc-buttons-functional" data-evaluate>=</button>
                     <button class="calc-buttons-functional" data-number>0</button>
-                    <button class="calc-buttons-functional" data-point>.</button>
+                    <button id="calc-buttons-point" class="calc-buttons-functional" data-point>.</button>
                     <button class="calc-buttons-functional" data-operator>/</button>
                 </div>
             </div>
