@@ -1,0 +1,111 @@
+body {
+  background: url(19742.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content {
+    margin: 1rem 3rem;
+    width: 30rem;
+    box-sizing: border-box;
+    border: 0px;
+}
+
+.calc {
+    background-color:dimgray;
+    border: black 3px solid;
+    border-radius: 0.7rem;
+    padding: 2rem;
+}
+
+.calc-display {
+    border-radius: 0.5rem;
+    background-color: white;
+    margin-bottom: 3rem;
+}
+
+.calc-display-upper {
+    background-color:white;
+    border-radius: 0.5rem;
+    font-size: small;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.calc-display-main {
+    background-color: white;
+    border-radius: 0.5rem;
+    font-size: large;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.calc-buttons-removers {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.remover {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    min-height: 3rem;
+}
+
+.calc-buttons-divider {
+    display: flex;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.calc-buttons-functional {
+    flex: 0 1 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 3rem;
+}
+
+.calc-buttons-operators {
+    flex: 1 1 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    border: none;
+    border-radius: 0.2rem;
+}
+
+button:hover {
+    background-color: rgba(255, 228, 196, 0.575);
+}
+
+button:active {
+    background-color: bisque; 
+    border: 0.1rem solid cornflowerblue;
+}
+
+div {
+    min-height: 2rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
