@@ -72,6 +72,10 @@ function evaluate() {
     currentOperation = null
 }
 
+function operatorhandler {
+    
+}
+
 function setOperator(operator) {
     if (currentOperation !== null) evaluate()
     firstOperand = mainDisplay.textContent;
